@@ -64,4 +64,4 @@ def valueItem(itemId):
 
     return int(valuedPrice)
 
-print(valueItem(35686000))
+print(valueItem(input("Item ID of item to value: ")))
